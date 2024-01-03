@@ -16,8 +16,8 @@ def main():
         x = input("Enter a number to convert it to binary. ")
     if x[0] == "-":
         x = x[1:]
-        print("-" + display_binary_num(int(x)))
+        print("-" + display_binary(int(x)))
     else:
-        print(display_binary_num(int(x)))
+        print(display_binary(int(x)))
 
 main()
